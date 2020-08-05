@@ -35,6 +35,7 @@ function renderBooks() {
     );
     document.querySelector('.book-list').innerHTML = strHtmls.join('');
     onPagination();
+    doTrans();
 }
 
 function onAddBook(event) {
